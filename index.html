@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>enem-frontend</title>
+
+        <style>
+            .bg-image {
+                position: fixed;
+                inset: 0;
+                z-index: 0;
+                width: 100vw;
+                height: 100vh;
+                object-fit: cover;
+                object-position: center;
+                opacity: 0.14;
+                filter: blur(2.5px) grayscale(16%);
+                pointer-events: none;
+                transition: opacity 0.7s;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="site-title">Assessor ENEM com IA Generativa</h1>
+
+        <div id="root"></div>
+
+        <script type="module" src="/src/main.jsx"></script>
+    </body>
+</html>

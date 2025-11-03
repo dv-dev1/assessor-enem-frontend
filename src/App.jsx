@@ -20,7 +20,7 @@ function App() {
     // Usamos try...catch para lidar com falhas de rede ou servidor
     try {
       // CORRIGIDO: URL e variável 'response'
-      const response = await fetch('httpsa://assessor-enem-backend-dv.onrender.com/api/gerar-plano', {
+      const response = await fetch('https://assessor-enem-backend-dv.onrender.com/api/gerar-plano', {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
